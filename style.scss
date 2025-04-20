@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+
+.center {
+  padding-left: calc(50% - 600px);
+  padding-right: calc(50% - 600px);
+}
+.star {
+  display: grid;
+  gap: 30px;
+  grid-template-columns: repeat(12, 1fr);
+}
+.g-star {
+  grid-column-start: 9;
+
+  grid-row-end: 3;
+}
+.title {
+  color: rgb(32, 32, 39);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 24px;
+  max-width: 768px;
+}
+
+.top {
+  height: 800px;
+  background: rgb(225, 255, 143);
+  background-image: url(img/Bstar.png), url(img/Star1.png), url(img/Star2.png),
+    url(img/Star3.png), url(img/Star4.png);
+  background-repeat: no-repeat;
+  background-position: calc(100% - -480px) calc(100% - 1px),
+    calc(100% - 415px) calc(100% - 59px), 63px 94px, 156px 69px, 948px 538px;
+}
+.text {
+  color: rgb(32, 32, 39);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-bottom: 28px;
+  max-width: 740px;
+  &__weight {
+    color: rgb(32, 32, 39);
+  }
+}
+
+.btn {
+  display: inline-block;
+  width: 247px;
+  height: 66px;
+
+  box-sizing: border-box;
+  border: 1px solid rgb(32, 32, 39);
+  border-radius: 60px;
+  background: rgb(32, 32, 39);
+  color: rgb(255, 255, 255);
+  font-family: Montserrat;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 141.69%;
+  letter-spacing: 0%;
+  text-align: center;
+  padding-top: 16px;
+}
+
+.header {
+  width: 768px;
+  margin-top: 196px;
+  position: absolute;
+}
+
+.textline {
+  width: 3220px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  backdrop-filter: blur(50px);
+  background: rgb(188, 236, 48);
+  flex-wrap: wrap;
+  overflow: hidden;
+  max-height: 87px;
+  margin-top: 158px;
+  margin-left: -152px;
+  justify-content: space-between;
+
+  &__text {
+    color: rgb(32, 32, 39);
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1.8px;
+    padding-right: 46px;
+    padding-left: 46px;
+    line-height: 110%;
+  }
+}
+.games-block {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 24px;
+  align-self: stretch;
+  background: rgb(32, 32, 39);
+}
+.games-title {
+  color: rgb(255, 255, 255);
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 78px;
+  letter-spacing: 0px;
+  text-align: left;
+  margin-top: 94px;
+}
+.games-text {
+  color: rgb(255, 255, 255);
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 32px;
+  letter-spacing: 0px;
+  text-align: left;
+  max-width: 788px;
+}
+
+.cart {
+  max-height: 1060px;
+  max-width: 1200px;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+  grid-template-rows: repeat(3, 1fr);
+  gap: 32px;
+  align-items: start;
+  margin-top: 48px;
+
+  &__games {
+    display: flex;
+    flex-direction: column;
+    grid-column: span 4;
+    background-color: rgb(255, 255, 255);
+    border-radius: 30px;
+    transition: 1s;
+  }
+
+  &__games:hover {
+    transform: scale(1.05);
+  }
+
+  &__games_up {
+    margin-top: -40px;
+  }
+
+  &__img {
+    height: 314px;
+    border-radius: 30px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    transition: 1s;
+  }
+  &__img:hover {
+    transform: scale(1.2);
+  }
+
+  &__img_1 {
+    background-image: url(img/game1.png);
+  }
+  &__img_2 {
+    background-image: url(img/game2.png);
+  }
+  &__img_3 {
+    background-image: url(img/game3.png);
+  }
+  &__img_4 {
+    background-image: url(img/game4.png);
+  }
+  &__img_5 {
+    background-image: url(img/game5.png);
+  }
+  &__img_6 {
+    background-image: url(img/game6.png);
+  }
+  &__name {
+    border-radius: 52.58px;
+    background: rgb(247, 247, 247);
+    color: rgb(32, 32, 39);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 110%;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 32px;
+    margin-left: 32px;
+    width: fit-content;
+    padding: 8px 16px 10px 16px;
+  }
+
+  &__text {
+    color: rgb(32, 32, 39);
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 39px;
+    letter-spacing: 0px;
+    text-align: left;
+    margin-top: 16px;
+    margin-bottom: 32px;
+    margin-left: 32px;
+    margin-right: 32px;
+  }
+}
+.footer {
+  height: 150px;
+  background: rgb(189, 237, 53);
+  color: rgb(0, 0, 0);
+
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 29px;
+  letter-spacing: 0px;
+  text-align: center;
+  padding-top: 61px;
+}

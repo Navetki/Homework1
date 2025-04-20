@@ -3,7 +3,156 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Домашнее задание сделано и направлено</title>
+    <title>Главная страница</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href=" https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body></body>
+
+  <body>
+    <div class="top center">
+      <header class="header">
+        <h1 class="title">
+          <b>Добро пожаловать на мой сайт мини-игр</b>
+        </h1>
+        <p class="text">
+          Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай
+          <a href="#" class="text__weight"><b>«Поехали!»</b></a> и
+          <a href="#" class="text__weight"><b>приступай.</b></a>
+        </p>
+
+        <a href="#games" class="btn">Поехали!</a>
+
+        <section class="textline">
+          <div class="textline__text">Викторина</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+          <div class="textline__text"><b>угадай число</b></div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+          <div class="textline__text">Переверни текст</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+          <div class="textline__text">Простая арифметика</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+          <div class="textline__text">Камень, ножницы, бумага</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+          <div class="textline__text">Генератор случайных цветов</div>
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="36"
+            height="36"
+            viewBox="0 0 36 36"
+            fill="none"
+          >
+            <path
+              d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+              fill="#202027"
+            />
+          </svg>
+        </section>
+      </header>
+    </div>
+    <section class="games-block center">
+      <h1 id="games" class="games-title">Об играх</h1>
+      <p class="games-text">
+        В моей коллекции представлено 6 игр на разные темы.<br />Игры несложные
+        — в них может поиграть каждый.<br />
+        Все игры доступны для пользования.
+      </p>
+      <article class="cart">
+        <a class="cart__games" href="#">
+          <div class="cart__img cart__img_1"></div>
+          <div class="cart__name">Игра № 1</div>
+          <div class="cart__text">Угадай число</div>
+        </a>
+        <a class="cart__games" href="#">
+          <div class="cart__img cart__img_2"></div>
+          <div class="cart__name">Игра № 2</div>
+          <div class="cart__text">
+            Простая <br />
+            арифметика
+          </div>
+        </a>
+        <a class="cart__games" href="#">
+          <div class="cart__img cart__img_3"></div>
+          <div class="cart__name">Игра №3</div>
+          <div class="cart__text">Переверни текст</div>
+        </a>
+        <a class="cart__games cart__games_up" href="#">
+          <div class="cart__img cart__img_4"></div>
+          <div class="cart__name">Игра №4</div>
+          <div class="cart__text">Камень, ножницы, <br />бумага</div>
+        </a>
+        <a class="cart__games" href="#">
+          <div class="cart__img cart__img_5"></div>
+          <div class="cart__name">Игра №5</div>
+          <div class="cart__text">Простая<br />викторина</div>
+        </a>
+        <a class="cart__games cart__games_up" href="#">
+          <div class="cart__img cart__img_6"></div>
+          <div class="cart__name">Игра №6</div>
+          <div class="cart__text">Генератор<br />случайных <br />цветов</div>
+        </a>
+      </article>
+    </section>
+
+    <footer class="footer center">Все права защищены.</footer>
+  </body>
 </html>
