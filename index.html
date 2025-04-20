@@ -16,23 +16,17 @@
   <body>
     <div class="top center">
       <header class="header">
-        <h1 class="top__title">
-          <b
-            ><b
-              >Добро пожаловать <br />
-              на мой сайт мини-игр</b
-            ></b
-          >
+        <h1 class="title">
+          <b>Добро пожаловать на мой сайт мини-игр</b>
         </h1>
-        <p class="top__text">
-          Тебе предстоит пройти несколько увлекательных игр.<br />Если готов,
-          нажимай <span class="header__text_weight"><b>«Поехали!»</b></span> и
-          <span class="header__text_weight"><b>приступай.</b></span>
+        <p class="text">
+          Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай
+          <a href="#" class="text__weight"><b>«Поехали!»</b></a> и
+          <a href="#" class="text__weight"><b>приступай.</b></a>
         </p>
-        <br />
-        <form action="#">
-          <button type="submit" class="btn">Поехали!</button>
-        </form>
+
+        <a href="#games" class="btn">Поехали!</a>
+
         <section class="textline">
           <div class="textline__text">Викторина</div>
           <svg
@@ -116,19 +110,19 @@
       </header>
     </div>
     <section class="games-block center">
-      <h1 class="games-title">Об играх</h1>
+      <h1 id="games" class="games-title">Об играх</h1>
       <p class="games-text">
         В моей коллекции представлено 6 игр на разные темы.<br />Игры несложные
         — в них может поиграть каждый.<br />
         Все игры доступны для пользования.
       </p>
-      <div class="cart">
-        <a class="card__games" href="#">
+      <article class="cart">
+        <a class="cart__games" href="#">
           <div class="cart__img cart__img_1"></div>
           <div class="cart__name">Игра № 1</div>
           <div class="cart__text">Угадай число</div>
         </a>
-        <a class="card__games" href="#">
+        <a class="cart__games" href="#">
           <div class="cart__img cart__img_2"></div>
           <div class="cart__name">Игра № 2</div>
           <div class="cart__text">
@@ -136,27 +130,27 @@
             арифметика
           </div>
         </a>
-        <a class="card__games" href="#">
+        <a class="cart__games" href="#">
           <div class="cart__img cart__img_3"></div>
           <div class="cart__name">Игра №3</div>
           <div class="cart__text">Переверни текст</div>
         </a>
-        <a class="card__games cart__games_up" href="#">
+        <a class="cart__games cart__games_up" href="#">
           <div class="cart__img cart__img_4"></div>
           <div class="cart__name">Игра №4</div>
           <div class="cart__text">Камень, ножницы, <br />бумага</div>
         </a>
-        <a class="card__games" href="#">
+        <a class="cart__games" href="#">
           <div class="cart__img cart__img_5"></div>
           <div class="cart__name">Игра №5</div>
           <div class="cart__text">Простая<br />викторина</div>
         </a>
-        <a class="card__games cart__games_up" href="#">
+        <a class="cart__games cart__games_up" href="#">
           <div class="cart__img cart__img_6"></div>
           <div class="cart__name">Игра №6</div>
-          <div class="cart__text">ПГенератор<br />случайных <br />цветов</div>
+          <div class="cart__text">Генератор<br />случайных <br />цветов</div>
         </a>
-      </div>
+      </article>
     </section>
 
     <footer class="footer center">Все права защищены.</footer>
