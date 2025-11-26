@@ -40,6 +40,7 @@
     height: 51px;
     margin-left: -10px;
     justify-content: flex-start;
+    overflow-x: hidden;
   }
   .textline__text {
     font-size: 16px;

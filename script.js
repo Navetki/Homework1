@@ -1,6 +1,6 @@
-let a = 10;
+let s = 10;
 alert(a);
-a = 20;
+s = 20;
 alert(a);
 
 first_iphone_year = 2007;
@@ -59,6 +59,6 @@ let number3 = number2 + 10;
 alert(number3);
 let number4 = number3 / 2;
 alert(number4);
-let result = number4 - number;
-alert(result);
+let total = number4 - number;
+alert(total);
 alert("Ответ: 5");
