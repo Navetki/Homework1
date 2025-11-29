@@ -45,9 +45,11 @@ a {
 .top {
   height: 710px;
   background: rgb(225, 255, 143);
-  background-image: url(img/Bstar.png), url(img/Star1.png), url(img/Star2.png), url(img/Star3.png), url(img/Star4.png);
+  background-image: url(img/Bstar.png), url(img/Star1.png), url(img/Star2.png),
+    url(img/Star3.png), url(img/Star4.png);
   background-repeat: no-repeat;
-  background-position: calc(100% + 480px) calc(100% - 1px), calc(100% - 415px) calc(100% - 59px), 63px 94px, 156px 69px, 948px 538px;
+  background-position: calc(100% + 480px) calc(100% - 1px),
+    calc(100% - 415px) calc(100% - 59px), 63px 94px, 156px 69px, 948px 538px;
 }
 
 .text {
@@ -95,7 +97,7 @@ a {
   align-items: center;
   border: 1px solid rgba(255, 255, 255, 0.2);
   -webkit-backdrop-filter: blur(50px);
-          backdrop-filter: blur(50px);
+  backdrop-filter: blur(50px);
   background: rgb(188, 236, 48);
   flex-wrap: wrap;
   overflow: hidden;
@@ -236,7 +238,7 @@ a {
   height: 3549px;
 }
 
-.minigames__list {
+.minigames-block__list {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
@@ -343,9 +345,11 @@ a {
   }
   .top {
     height: 650px;
-    background-image: url(img/Grand_star.png), url(img/Star1.png), url(img/Star2.png), url(img/Star3.png), url(img/Star4.png);
+    background-image: url(img/Grand_star.png), url(img/Star1.png),
+      url(img/Star2.png), url(img/Star3.png), url(img/Star4.png);
     background-repeat: no-repeat;
-    background-position: calc(100% + 480px) calc(100% - 1px), calc(100% - 415px) calc(100% - 59px), 63px 94px, 156px 69px, 948px 538px;
+    background-position: calc(100% + 480px) calc(100% - 1px),
+      calc(100% - 415px) calc(100% - 59px), 63px 94px, 156px 69px, 948px 538px;
   }
   .header {
     margin-top: 146px;
@@ -445,4 +449,4 @@ a {
     line-height: 20px;
     padding-top: 40px;
   }
-}/*# sourceMappingURL=style.css.map */
+} /*# sourceMappingURL=style.css.map */
