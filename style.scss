@@ -179,24 +179,6 @@ a {
     transform: scale(1.2);
   }
 
-  &__img_1 {
-    background-image: url(img/game1.png);
-  }
-  &__img_2 {
-    background-image: url(img/game2.png);
-  }
-  &__img_3 {
-    background-image: url(img/game3.png);
-  }
-  &__img_4 {
-    background-image: url(img/game4.png);
-  }
-  &__img_5 {
-    background-image: url(img/game5.png);
-  }
-  &__img_6 {
-    background-image: url(img/game6.png);
-  }
   &__name {
     border-radius: 52.58px;
     background: rgb(247, 247, 247);
@@ -224,6 +206,30 @@ a {
     margin-left: 32px;
     margin-right: 32px;
   }
+}
+.cart__img_1,
+%cart__img_1 {
+  background-image: url(img/game1.png);
+}
+.cart__img_2,
+%cart__img_2 {
+  background-image: url(img/game2.png);
+}
+.cart__img_3,
+%cart__img_3 {
+  background-image: url(img/game3.png);
+}
+.cart__img_4,
+%cart__img_4 {
+  background-image: url(img/game4.png);
+}
+.cart__img_5,
+%cart__img_5 {
+  background-image: url(img/game5.png);
+}
+.cart__img_6,
+%cart__img_6 {
+  background-image: url(img/game6.png);
 }
 .minigames-block {
   display: flex;
@@ -277,6 +283,24 @@ a {
     background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
+    &_1 {
+      @extend %cart__img_1;
+    }
+    &_2 {
+      @extend %cart__img_2;
+    }
+    &_3 {
+      @extend %cart__img_3;
+    }
+    &_4 {
+      @extend %cart__img_4;
+    }
+    &_5 {
+      @extend %cart__img_5;
+    }
+    &_6 {
+      @extend %cart__img_6;
+    }
   }
   &__box {
     margin-left: 48px;
