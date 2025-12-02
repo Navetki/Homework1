@@ -98,3 +98,57 @@ if (clientOS2 === 0 && clientDeviceYear < 2015) {
 } else {
   console.log("Установите приложение");
 }
+
+const months = [
+  "Январь",
+  "Февраль",
+  "Март",
+  "Апрель",
+  "Май",
+  "Июнь",
+  "Июль",
+  "Август",
+  "Сентябрь",
+  "Октябрь",
+  "Ноябрь",
+  "Декабрь",
+];
+
+for (let i = 0; i < months.length; i++) {
+  const monthName = months[i];
+  const monthNumber = i + 1;
+
+  console.log(`${monthNumber} месяц в году: ${monthName}`);
+}
+
+const book = {
+  title: "Голова профессора Доуэля",
+  author: "Александр Беляев",
+  year: 1925,
+  genre: "Научная фантастика",
+};
+
+console.log("Краткое описание книги:");
+
+for (let key in book) {
+  if (Object.hasOwnProperty.call(book, key)) {
+    console.log(`${key}: ${book[key]}`);
+  }
+}
+
+const numbers = [];
+
+for (let i = 0; i < 10; i++) {
+  numbers.push(Math.floor(Math.random() * 100) + 1);
+}
+console.log("Массив:", numbers);
+
+let minNumber = numbers[0];
+
+for (let i = 1; i < numbers.length; i++) {
+  if (numbers[i] < minNumber) {
+    minNumber = numbers[i];
+  }
+}
+
+console.log(`Минимальное число в массиве: ${minNumber}`);

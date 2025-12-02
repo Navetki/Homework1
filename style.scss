@@ -79,6 +79,9 @@ a {
   letter-spacing: 0%;
   text-align: center;
   padding-top: 16px;
+  &__mobile {
+    display: none;
+  }
 }
 
 .header {

@@ -23,6 +23,10 @@
     margin-bottom: 24px;
     max-width: 262px;
     margin-left: 38px;
+    width: 262px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
   }
   .text {
     font-size: 16px;
@@ -34,11 +38,26 @@
   }
 
   .btn {
-    width: 285px;
-    height: 55px;
-    font-size: 16px;
-    line-height: 141.69%;
-    margin-left: 32px;
+    display: none;
+    &__mobile {
+      display: inline-block;
+      width: 285px;
+      height: 55px;
+      box-sizing: border-box;
+      border: 1px solid rgb(32, 32, 39);
+      border-radius: 60px;
+      background: rgb(32, 32, 39);
+      color: rgb(255, 255, 255);
+      font-family: Montserrat;
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 141.69%;
+      letter-spacing: 0%;
+      text-align: center;
+      padding-top: 16px;
+      margin-left: 30px;
+      color: rgba(255, 255, 255, 1);
+    }
   }
   .textline {
     height: 51px;
@@ -79,11 +98,11 @@
     &__games {
       flex-direction: column;
       max-height: 622px;
-      max-width: 100%;
+      max-width: 343px;
     }
     &__img {
       max-height: 285px;
-      max-width: 100%;
+      max-width: 343px;
     }
     &__box {
       margin-left: 30px;
@@ -111,5 +130,6 @@
     font-size: 16px;
     line-height: 20px;
     padding-top: 40px;
+    max-height: 100px;
   }
 }
