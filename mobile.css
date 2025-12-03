@@ -59,7 +59,6 @@
     height: 51px;
     margin-left: -10px;
     justify-content: flex-start;
-    width: auto;
   }
   .textline__text {
     font-size: 16px;
@@ -94,11 +93,11 @@
   .product__games {
     flex-direction: column;
     max-height: 622px;
-    max-width: 343px;
+    width: 100%;
   }
   .product__img {
     max-height: 285px;
-    max-width: 343px;
+    width: 100%;
   }
   .product__box {
     margin-left: 30px;

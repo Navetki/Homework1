@@ -86,9 +86,13 @@ a {
 }
 
 .header {
-  width: 768px;
   margin-top: 196px;
   position: absolute;
+}
+
+.blockline {
+  overflow: hidden;
+  overflow-x: scroll;
 }
 
 .textline {
@@ -259,7 +263,7 @@ a {
 
 .product {
   max-height: 1060px;
-  max-width: 1200px;
+  width: 100%;
   display: grid;
   grid-template-columns: repeat(12, 1fr);
   grid-template-rows: repeat(3, 1fr);
@@ -274,7 +278,7 @@ a {
   justify-content: flex-start;
   grid-column: span 12;
   max-height: 500px;
-  max-width: 100%;
+  width: 100%;
   border-radius: 30px;
   box-shadow: 0px 20px 67px -12px rgba(0, 0, 0, 0.13);
   background: rgb(255, 255, 255);
@@ -284,7 +288,7 @@ a {
 .product__games_rev {
   flex-direction: row-reverse;
   justify-content: space-between;
-  width: 1200px;
+  width: 100%;
 }
 .product__img {
   width: 600px;
@@ -412,7 +416,6 @@ a {
     height: 51px;
     margin-left: -10px;
     justify-content: flex-start;
-    width: auto;
   }
   .textline__text {
     font-size: 16px;
@@ -447,11 +450,11 @@ a {
   .product__games {
     flex-direction: column;
     max-height: 622px;
-    max-width: 343px;
+    width: 100%;
   }
   .product__img {
     max-height: 285px;
-    max-width: 343px;
+    width: 100%;
   }
   .product__box {
     margin-left: 30px;
