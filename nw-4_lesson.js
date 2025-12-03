@@ -11,10 +11,10 @@ while (i < 6) {
   i++;
 }
 
-let i = 7;
-while (i < 23) {
-  console.log(i);
-  i++;
+let i_2 = 7;
+while (i_2 < 23) {
+  console.log(i_2);
+  i_2++;
 }
 
 const obj = {
