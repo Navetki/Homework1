@@ -11,13 +11,15 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="style.css" />
+    <script src="nw-4_lesson.js"></script>
   </head>
 
   <body>
     <div class="top center">
       <header class="header">
         <h1 class="title">
-          <b>Добро пожаловать на мой сайт мини-игр</b>
+          <b>Добро пожаловать</b><br />
+          <b>на мой сайт мини-игр</b>
         </h1>
         <p class="text">
           Тебе предстоит пройти несколько увлекательных игр. Если готов, нажимай
@@ -26,95 +28,97 @@
         </p>
 
         <a href="#games" class="btn">Поехали!</a>
+        <a href="#minigames" class="btn__mobile">Поехали!</a>
       </header>
     </div>
-    <section class="textline center">
-      <div class="textline__text">Викторина</div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-      <div class="textline__text"><b>угадай число</b></div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-      <div class="textline__text">Переверни текст</div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-      <div class="textline__text">Простая арифметика</div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-      <div class="textline__text">Камень, ножницы, бумага</div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-      <div class="textline__text">Генератор случайных цветов</div>
-      <svg
-        class="textline__star"
-        xmlns="http://www.w3.org/2000/svg"
-        width="36"
-        height="36"
-        viewBox="0 0 36 36"
-        fill="none"
-      >
-        <path
-          d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
-          fill="#202027"
-        />
-      </svg>
-    </section>
-
+    <div class="blockline">
+      <section class="textline center">
+        <div class="textline__text">Викторина</div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+        <div class="textline__text"><b>угадай число</b></div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+        <div class="textline__text">Переверни текст</div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+        <div class="textline__text">Простая арифметика</div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+        <div class="textline__text">Камень, ножницы, бумага</div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+        <div class="textline__text">Генератор случайных цветов</div>
+        <svg
+          class="textline__star"
+          xmlns="http://www.w3.org/2000/svg"
+          width="36"
+          height="36"
+          viewBox="0 0 36 36"
+          fill="none"
+        >
+          <path
+            d="M18 0L22.8616 13.1384L36 18L22.8616 22.8616L18 36L13.1384 22.8616L0 18L13.1384 13.1384L18 0Z"
+            fill="#202027"
+          />
+        </svg>
+      </section>
+    </div>
     <section class="games-block center">
       <h1 id="games" class="games-title">Об играх</h1>
       <p class="games-text">
@@ -162,7 +166,7 @@
       <h1 id="minigames" class="games-title">Мини-игры</h1>
       <div class="minigames-block__list">
         <article class="product">
-          <a class="product__games product__games_rev" id="cart_1">
+          <div class="product__games product__games_rev" id="cart_1">
             <div class="product__img product__img_1"></div>
             <section class="product__box">
               <div class="product__name">Угадай число</div>
@@ -171,8 +175,8 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
-          <a class="product__games" id="cart_2">
+          </div>
+          <div class="product__games" id="cart_2">
             <div class="product__img product__img_2"></div>
             <section class="product__box">
               <div class="product__name">Простая <br />арифметика</div>
@@ -181,8 +185,8 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
-          <a class="product__games product__games_rev" id="cart_3">
+          </div>
+          <div class="product__games product__games_rev" id="cart_3">
             <div class="product__img product__img_3"></div>
             <section class="product__box">
               <div class="product__name">Переверни текст</div>
@@ -191,8 +195,8 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
-          <a class="product__games" id="cart_4">
+          </div>
+          <div class="product__games" id="cart_4">
             <div class="product__img product__img_4"></div>
             <section class="product__box">
               <div class="product__name">Викторина</div>
@@ -201,8 +205,8 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
-          <a class="product__games product__games_rev" id="cart_5">
+          </div>
+          <div class="product__games product__games_rev" id="cart_5">
             <div class="product__img product__img_5"></div>
             <section class="product__box">
               <div class="product__name">
@@ -213,8 +217,8 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
-          <a class="product__games" id="cart_6">
+          </div>
+          <div class="product__games" id="cart_6">
             <div class="product__img product__img_6"></div>
             <section class="product__box">
               <div class="product__name">
@@ -226,7 +230,7 @@
               </div>
               <button class="product__but">Играть!</button>
             </section>
-          </a>
+          </div>
         </article>
       </div>
     </section>
