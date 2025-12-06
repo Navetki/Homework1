@@ -85,6 +85,11 @@ a {
   display: none;
 }
 
+.btn:hover {
+  background: rgb(255, 255, 255);
+  color: rgb(32, 32, 39);
+}
+
 .header {
   margin-top: 196px;
   position: absolute;
@@ -92,11 +97,11 @@ a {
 
 .blockline {
   overflow: hidden;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .textline {
-  width: 3220px;
+  width: 5220px;
   height: 90px;
   display: flex;
   align-items: center;
