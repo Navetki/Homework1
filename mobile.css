@@ -11,6 +11,8 @@
   }
   .header {
     margin-top: 146px;
+    align-items: self-start;
+    width: 100%;
   }
   .title {
     font-size: 40px;
@@ -18,12 +20,11 @@
     line-height: 49px;
     text-align: center;
     margin-bottom: 24px;
-    max-width: 262px;
     margin-left: 38px;
-    width: 262px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    margin-left: 0;
   }
   .text {
     font-size: 16px;
@@ -81,6 +82,7 @@
   .minigames-block {
     justify-content: flex-start;
     height: 3740px;
+    align-content: center;
   }
   .product {
     max-width: 352px;

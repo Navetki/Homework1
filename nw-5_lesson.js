@@ -36,14 +36,22 @@ function displaySquare(num) {
 
 // задание 4
 
-let age = 13;
-if (age >= 13) {
-  alert("Добро пожаловать!");
-} else if (age < 0) {
-  alert("Вы ввели неправильное значение");
-} else {
-  alert("Привет, друг!");
+function checkAge() {
+  const age = prompt("Сколько Вам лет?");
+
+  if (isNaN(age)) {
+    alert("Вы ввели некорректные данные.");
+    return;
+  }
+  if (age < 0) {
+    alert("Вы ввели неправильное значение");
+  } else if (age >= 13) {
+    alert("Добро пожаловать!");
+  } else {
+    alert("Привет, друг!");
+  }
 }
+checkAge();
 
 // задание 5
 
@@ -53,14 +61,15 @@ function multiplyIfNumbers(m, n) {
   }
 
   return m * n;
+}
 
-  // задание 6
+// задание 6
 
-  function checkCube() {
+function checkCube() {
   let userNumber = prompt("Укажите любое число");
 
   if (isNaN(userNumber)) {
-    return("Переданный параметр не является числом");
+    return "Переданный параметр не является числом";
   }
 
   const cubeNumber = userNumber ** 3;
@@ -70,31 +79,30 @@ function multiplyIfNumbers(m, n) {
 
 alert(checkCube());
 
-// задание 7 
+// задание 7
 
 const circle1 = {
-  radius: 8, // 
+  radius: 8, //
 
   getArea() {
-     return Math.PI * this.radius ** 2;
-  },
-
- getPerimeter() {
-    return 2 * Math.PI * this.radius;
-  }
-};
-
-const circle2 = {
-  radius: 15, 
-
-  
-  getArea() {
-    return Math.PI * this.radius ** 2; 
+    return Math.PI * this.radius ** 2;
   },
 
   getPerimeter() {
     return 2 * Math.PI * this.radius;
-  }
+  },
+};
+
+const circle2 = {
+  radius: 15,
+
+  getArea() {
+    return Math.PI * this.radius ** 2;
+  },
+
+  getPerimeter() {
+    return 2 * Math.PI * this.radius;
+  },
 };
 console.log(circle1.getArea());
 console.log(circle1.getPerimeter());
