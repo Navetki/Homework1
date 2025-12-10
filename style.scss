@@ -83,6 +83,10 @@ a {
     display: none;
   }
 }
+.btn:hover {
+  background: rgba(255, 255, 255, 1);
+  color: rgba(32, 32, 39, 1);
+}
 
 .header {
   margin-top: 196px;
@@ -90,11 +94,11 @@ a {
 }
 .blockline {
   overflow: hidden;
-  overflow-x: scroll;
+  overflow-y: scroll;
 }
 
 .textline {
-  width: 3220px;
+  width: 5220px;
   height: 90px;
   display: flex;
   align-items: center;
@@ -370,3 +374,4 @@ a {
 }
 
 @import "mobile";
+@import "tablet";
